@@ -1,0 +1,35 @@
+./configure \
+	--with-features=huge \
+	--with-x \
+	--with-gnome \
+	--with-vim-name=vim \
+	--with-ex-name=ex \
+	--with-view-name=view \
+	--enable-fail-if-missing \
+	--enable-luainterp=yes \
+	--with-luajit \
+	--enable-mzschemeinterp \
+	--enable-perlinterp=yes \
+	--enable-pythoninterp=yes \
+	--enable-python3interp=yes \
+	--enable-tclinterp=yes \
+	--enable-rubyinterp=yes \
+	--enable-cscope \
+	--enable-terminal \
+	--enable-autoservername \
+	--enable-multibyte \
+	--enable-xim \
+	--enable-fontset \
+	--enable-gui=auto \
+	--enable-gtk2-check \
+	--enable-gnome-check \
+	--enable-gtk3-check \
+	--enable-motif-check \
+	--enable-athena-check \
+	--enable-nextaw-check \
+	--with-python-command=python2 \
+	--with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
+	--with-python3-command=python3 \
+	--with-python3-config-dir=/usr/lib/python3.8/config-3.8-x86_64-linux-gnu \
+	--with-ruby-command=ruby \
+        --prefix=/usr
